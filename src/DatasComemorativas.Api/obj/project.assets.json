@@ -399,6 +399,7 @@
         "dependencies": {
           "DataComemorativa.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.8",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
         "compile": {

@@ -45,3 +45,16 @@ C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\obj\
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\obj\Debug\net9.0\DataComemorativa.Api.pdb
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\obj\Debug\net9.0\DataComemorativa.Api.genruntimeconfig.cache
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\obj\Debug\net9.0\ref\DataComemorativa.Api.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\MySqlConnector.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll

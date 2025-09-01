@@ -1,15 +1,20 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using DataComemorativa.Domain.Entities;
 
 
 namespace DataComemorativa.Infrastructure.DataAcess
 {
     public class DataComemorativaDbContext : DbContext
     {
-        public DataComemorativaDbContext(DbContextOptions<DataComemorativaDbContext> options) : base(options) { }
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        
+        public DbSet<Data> datas { get; set; }
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            base.OnModelCreating(modelBuilder);
-
+            var connectionString = "server=localhost;database=data_comemorativa;user=root;password=root";
+            
+            var serverVersion = new MySqlServerVersion(new Version(8, 0, 43)); // Adjust version as needed
+            
+            optionsBuilder.UseMySql(connectionString, serverVersion);
         }
     }
 }
