@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DatasComemorativas.Application/1.0.0": {
+        "dependencies": {
+          "DatasComemorativas.Communication": "1.0.0",
+          "DatasComemorativas.Domain": "1.0.0",
+          "DatasComemorativas.Exception": "1.0.0"
+        },
+        "runtime": {
+          "DatasComemorativas.Application.dll": {}
+        }
+      },
+      "DatasComemorativas.Communication/1.0.0": {
+        "runtime": {
+          "DatasComemorativas.Communication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DatasComemorativas.Domain/1.0.0": {
+        "runtime": {
+          "DatasComemorativas.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "DatasComemorativas.Exception/1.0.0": {
+        "runtime": {
+          "DatasComemorativas.Exception.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DatasComemorativas.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DatasComemorativas.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DatasComemorativas.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DatasComemorativas.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

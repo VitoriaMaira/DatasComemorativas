@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DatasComemorativas.Communication\DatasComemorativas.Communication.csproj" />
+    <ProjectReference Include="..\DatasComemorativas.Domain\DatasComemorativas.Domain.csproj" />
+    <ProjectReference Include="..\DatasComemorativas.Exception\DatasComemorativas.Exception.csproj" />
+  </ItemGroup>
+
 </Project>
