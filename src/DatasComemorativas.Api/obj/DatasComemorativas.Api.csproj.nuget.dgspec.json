@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj": {
-                "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj"
+              "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj": {
+                "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj"
               },
               "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj": {
                 "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj"
@@ -103,12 +103,12 @@
         }
       }
     },
-    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj": {
+    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj",
-        "projectName": "DatasComemorativas.Application",
-        "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj",
+        "projectName": "DataComemorativa.Application",
+        "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj",
         "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\obj\\",
         "projectStyle": "PackageReference",

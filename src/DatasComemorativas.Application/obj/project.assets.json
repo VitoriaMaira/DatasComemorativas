@@ -2,60 +2,60 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "DatasComemorativas.Communication/1.0.0": {
+      "DataComemorativa.Communication/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/DatasComemorativas.Communication.dll": {}
+          "bin/placeholder/DataComemorativa.Communication.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DatasComemorativas.Communication.dll": {}
+          "bin/placeholder/DataComemorativa.Communication.dll": {}
         }
       },
-      "DatasComemorativas.Domain/1.0.0": {
+      "DataComemorativa.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/DatasComemorativas.Domain.dll": {}
+          "bin/placeholder/DataComemorativa.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DatasComemorativas.Domain.dll": {}
+          "bin/placeholder/DataComemorativa.Domain.dll": {}
         }
       },
-      "DatasComemorativas.Exception/1.0.0": {
+      "DataComemorativa.Exception/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/DatasComemorativas.Exception.dll": {}
+          "bin/placeholder/DataComemorativa.Exception.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DatasComemorativas.Exception.dll": {}
+          "bin/placeholder/DataComemorativa.Exception.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "DatasComemorativas.Communication/1.0.0": {
+    "DataComemorativa.Communication/1.0.0": {
       "type": "project",
-      "path": "../DatasComemorativas.Communication/DatasComemorativas.Communication.csproj",
-      "msbuildProject": "../DatasComemorativas.Communication/DatasComemorativas.Communication.csproj"
+      "path": "../DatasComemorativas.Communication/DataComemorativa.Communication.csproj",
+      "msbuildProject": "../DatasComemorativas.Communication/DataComemorativa.Communication.csproj"
     },
-    "DatasComemorativas.Domain/1.0.0": {
+    "DataComemorativa.Domain/1.0.0": {
       "type": "project",
-      "path": "../DatasComemorativas.Domain/DatasComemorativas.Domain.csproj",
-      "msbuildProject": "../DatasComemorativas.Domain/DatasComemorativas.Domain.csproj"
+      "path": "../DatasComemorativas.Domain/DataComemorativa.Domain.csproj",
+      "msbuildProject": "../DatasComemorativas.Domain/DataComemorativa.Domain.csproj"
     },
-    "DatasComemorativas.Exception/1.0.0": {
+    "DataComemorativa.Exception/1.0.0": {
       "type": "project",
-      "path": "../DatasComemorativas.Exception/DatasComemorativas.Exception.csproj",
-      "msbuildProject": "../DatasComemorativas.Exception/DatasComemorativas.Exception.csproj"
+      "path": "../DatasComemorativas.Exception/DataComemorativa.Exception.csproj",
+      "msbuildProject": "../DatasComemorativas.Exception/DataComemorativa.Exception.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "DatasComemorativas.Communication >= 1.0.0",
-      "DatasComemorativas.Domain >= 1.0.0",
-      "DatasComemorativas.Exception >= 1.0.0"
+      "DataComemorativa.Communication >= 1.0.0",
+      "DataComemorativa.Domain >= 1.0.0",
+      "DataComemorativa.Exception >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -65,9 +65,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj",
-      "projectName": "DatasComemorativas.Application",
-      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DatasComemorativas.Application.csproj",
+      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj",
+      "projectName": "DataComemorativa.Application",
+      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj",
       "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\obj\\",
       "projectStyle": "PackageReference",
@@ -90,14 +90,14 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj": {
-              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj"
+            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj": {
+              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj"
             },
-            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj": {
-              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj"
+            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj": {
+              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj"
             },
-            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DatasComemorativas.Exception.csproj": {
-              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DatasComemorativas.Exception.csproj"
+            "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj": {
+              "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj"
             }
           }
         }

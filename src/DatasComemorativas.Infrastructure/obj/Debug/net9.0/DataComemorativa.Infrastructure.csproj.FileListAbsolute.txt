@@ -1,0 +1,16 @@
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\bin\Debug\net9.0\DataComemorativa.Infrastructure.deps.json
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\bin\Debug\net9.0\DataComemorativa.Infrastructure.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\bin\Debug\net9.0\DataComemorativa.Infrastructure.pdb
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\bin\Debug\net9.0\DataComemorativa.Domain.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\bin\Debug\net9.0\DataComemorativa.Domain.pdb
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.AssemblyInfo.cs
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.sourcelink.json
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataCome.2815B4F1.Up2Date
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\refint\DataComemorativa.Infrastructure.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\DataComemorativa.Infrastructure.pdb
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Infrastructure\obj\Debug\net9.0\ref\DataComemorativa.Infrastructure.dll

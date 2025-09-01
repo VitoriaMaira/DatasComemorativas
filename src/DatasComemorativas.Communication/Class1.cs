@@ -1,4 +1,4 @@
-﻿namespace DatasComemorativas.Communication
+﻿namespace DataComemorativa.Communication
 {
     public class Class1
     {

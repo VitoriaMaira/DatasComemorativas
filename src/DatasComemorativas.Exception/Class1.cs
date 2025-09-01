@@ -1,4 +1,4 @@
-﻿namespace DatasComemorativas.Exception
+﻿namespace DataComemorativa.Exception
 {
     public class Class1
     {

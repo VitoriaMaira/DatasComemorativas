@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DatasComemorativas.Exception.csproj",
-      "projectName": "DatasComemorativas.Exception",
-      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DatasComemorativas.Exception.csproj",
+      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj",
+      "projectName": "DataComemorativa.Exception",
+      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj",
       "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\obj\\",
       "projectStyle": "PackageReference",

@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj",
-      "projectName": "DatasComemorativas.Communication",
-      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DatasComemorativas.Communication.csproj",
+      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
+      "projectName": "DataComemorativa.Communication",
+      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
       "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\obj\\",
       "projectStyle": "PackageReference",

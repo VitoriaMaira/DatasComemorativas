@@ -4,12 +4,12 @@
     "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Infrastructure\\DatasComemorativas.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj": {
+    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj",
-        "projectName": "DatasComemorativas.Domain",
-        "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj",
+        "projectName": "DataComemorativa.Domain",
+        "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj",
         "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -97,8 +97,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj": {
-                "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj"
+              "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj": {
+                "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj"
               }
             }
           }

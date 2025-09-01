@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DatasComemorativas.Communication\DataComemorativa.Communication.csproj" />
+    <ProjectReference Include="..\DatasComemorativas.Domain\DataComemorativa.Domain.csproj" />
+    <ProjectReference Include="..\DatasComemorativas.Exception\DataComemorativa.Exception.csproj" />
+  </ItemGroup>
+
+</Project>

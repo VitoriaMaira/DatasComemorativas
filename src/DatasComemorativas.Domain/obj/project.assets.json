@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj",
-      "projectName": "DatasComemorativas.Domain",
-      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DatasComemorativas.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj",
+      "projectName": "DataComemorativa.Domain",
+      "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\DataComemorativa.Domain.csproj",
       "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\obj\\",
       "projectStyle": "PackageReference",

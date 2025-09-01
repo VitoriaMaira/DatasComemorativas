@@ -1,0 +1,12 @@
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\bin\Debug\net9.0\DataComemorativa.Exception.deps.json
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\bin\Debug\net9.0\DataComemorativa.Exception.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\bin\Debug\net9.0\DataComemorativa.Exception.pdb
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.AssemblyInfoInputs.cache
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.AssemblyInfo.cs
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.csproj.CoreCompileInputs.cache
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.sourcelink.json
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\refint\DataComemorativa.Exception.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\DataComemorativa.Exception.pdb
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Exception\obj\Debug\net9.0\ref\DataComemorativa.Exception.dll

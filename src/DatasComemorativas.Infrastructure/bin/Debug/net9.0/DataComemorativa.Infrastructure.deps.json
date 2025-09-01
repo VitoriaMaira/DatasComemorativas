@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DataComemorativa.Infrastructure/1.0.0": {
+        "dependencies": {
+          "DataComemorativa.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DataComemorativa.Infrastructure.dll": {}
+        }
+      },
+      "DataComemorativa.Domain/1.0.0": {
+        "runtime": {
+          "DataComemorativa.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataComemorativa.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataComemorativa.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
