@@ -2,6 +2,114 @@
   "version": 3,
   "targets": {
     "net9.0": {
+      "Dapper/2.1.66": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentMigrator/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "7.1.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.3",
+          "Microsoft.Extensions.Options": "9.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentMigrator.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentMigrator.Abstractions/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentMigrator.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Abstractions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "resource": {
+          "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
+      "FluentMigrator.Extensions.MySql/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentMigrator.Abstractions": "7.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentMigrator.Extensions.MySql.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Extensions.MySql.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentMigrator.Runner.Core/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentMigrator": "7.1.0",
+          "FluentMigrator.Abstractions": "7.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.DependencyInjection": "9.0.3",
+          "Microsoft.Extensions.Logging": "9.0.2",
+          "Microsoft.Extensions.Options": "9.0.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentMigrator.Runner.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Runner.Core.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "FluentMigrator.Runner.MySql/7.1.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentMigrator": "7.1.0",
+          "FluentMigrator.Extensions.MySql": "7.1.0",
+          "FluentMigrator.Runner.Core": "7.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/FluentMigrator.Runner.MySql.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Runner.MySql.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/9.0.8": {
         "type": "package",
         "dependencies": {
@@ -101,10 +209,10 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.0"
+          "Microsoft.Extensions.Primitives": "9.0.2"
         },
         "compile": {
           "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
@@ -265,6 +373,28 @@
           }
         }
       },
+      "System.ComponentModel.Annotations/5.0.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.ValueTuple/4.5.0": {
+        "type": "package",
+        "compile": {
+          "ref/netcoreapp2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/_._": {}
+        }
+      },
       "DataComemorativa.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -278,6 +408,122 @@
     }
   },
   "libraries": {
+    "Dapper/2.1.66": {
+      "sha512": "/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "type": "package",
+      "path": "dapper/2.1.66",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.1.66.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net8.0/Dapper.dll",
+        "lib/net8.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml",
+        "readme.md"
+      ]
+    },
+    "FluentMigrator/7.1.0": {
+      "sha512": "CA2xJsEQaGVn/jHmwhTqzgMSNUlNoPJ4G3IMKyHwlbTTLUHxiSllKfreejq29G5W5gz5MVtD23lWmBT/LnSLKg==",
+      "type": "package",
+      "path": "fluentmigrator/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README-nuget.md",
+        "fluentmigrator.7.1.0.nupkg.sha512",
+        "fluentmigrator.nuspec",
+        "lib/net48/FluentMigrator.dll",
+        "lib/net48/FluentMigrator.pdb",
+        "lib/net48/FluentMigrator.xml",
+        "lib/netstandard2.0/FluentMigrator.dll",
+        "lib/netstandard2.0/FluentMigrator.pdb",
+        "lib/netstandard2.0/FluentMigrator.xml",
+        "logo.png"
+      ]
+    },
+    "FluentMigrator.Abstractions/7.1.0": {
+      "sha512": "dmO8Zo3V/lRPsL/FeWUSLwCFJoOQvb2fog/oKRkUHzOIdLiwIrFVbD1HIOpDJEHGxm7f/3n3emCv+mhTsa1A0Q==",
+      "type": "package",
+      "path": "fluentmigrator.abstractions/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README-nuget.md",
+        "fluentmigrator.abstractions.7.1.0.nupkg.sha512",
+        "fluentmigrator.abstractions.nuspec",
+        "lib/net48/FluentMigrator.Abstractions.dll",
+        "lib/net48/FluentMigrator.Abstractions.pdb",
+        "lib/net48/FluentMigrator.Abstractions.xml",
+        "lib/net48/de-DE/FluentMigrator.Abstractions.resources.dll",
+        "lib/netstandard2.0/FluentMigrator.Abstractions.dll",
+        "lib/netstandard2.0/FluentMigrator.Abstractions.pdb",
+        "lib/netstandard2.0/FluentMigrator.Abstractions.xml",
+        "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll",
+        "logo.png"
+      ]
+    },
+    "FluentMigrator.Extensions.MySql/7.1.0": {
+      "sha512": "apSeo81umqNp1+To/KHvcUt/i1RZ0TKRYZ4cnkXn5VAzkeUEv2XWQY7/WGm7R4QMfM2hBwc8cIfRzdJXWeio8g==",
+      "type": "package",
+      "path": "fluentmigrator.extensions.mysql/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README-nuget.md",
+        "fluentmigrator.extensions.mysql.7.1.0.nupkg.sha512",
+        "fluentmigrator.extensions.mysql.nuspec",
+        "lib/net48/FluentMigrator.Extensions.MySql.dll",
+        "lib/net48/FluentMigrator.Extensions.MySql.pdb",
+        "lib/net48/FluentMigrator.Extensions.MySql.xml",
+        "lib/netstandard2.0/FluentMigrator.Extensions.MySql.dll",
+        "lib/netstandard2.0/FluentMigrator.Extensions.MySql.pdb",
+        "lib/netstandard2.0/FluentMigrator.Extensions.MySql.xml",
+        "logo.png"
+      ]
+    },
+    "FluentMigrator.Runner.Core/7.1.0": {
+      "sha512": "kbnkwYTuNSNY64YVfwFftO5BCu81cjoZDvQeTgz6T55hRajSNQxIxXjTl7T1wlQQIz6/64e1CYx7suEZYptvig==",
+      "type": "package",
+      "path": "fluentmigrator.runner.core/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README-nuget.md",
+        "fluentmigrator.runner.core.7.1.0.nupkg.sha512",
+        "fluentmigrator.runner.core.nuspec",
+        "lib/net48/FluentMigrator.Runner.Core.dll",
+        "lib/net48/FluentMigrator.Runner.Core.pdb",
+        "lib/net48/FluentMigrator.Runner.Core.xml",
+        "lib/netstandard2.0/FluentMigrator.Runner.Core.dll",
+        "lib/netstandard2.0/FluentMigrator.Runner.Core.pdb",
+        "lib/netstandard2.0/FluentMigrator.Runner.Core.xml",
+        "logo.png"
+      ]
+    },
+    "FluentMigrator.Runner.MySql/7.1.0": {
+      "sha512": "jS4mtgBiO4yK9Lzm1oCHQEna1Ao81a0DG8RKNQwus+KWa+zmFmC0CLoY/K2uCbw4sUQ1NOWGPhtZgg6g6+U+Iw==",
+      "type": "package",
+      "path": "fluentmigrator.runner.mysql/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README-nuget.md",
+        "fluentmigrator.runner.mysql.7.1.0.nupkg.sha512",
+        "fluentmigrator.runner.mysql.nuspec",
+        "lib/net48/FluentMigrator.Runner.MySql.dll",
+        "lib/net48/FluentMigrator.Runner.MySql.pdb",
+        "lib/net48/FluentMigrator.Runner.MySql.xml",
+        "lib/netstandard2.0/FluentMigrator.Runner.MySql.dll",
+        "lib/netstandard2.0/FluentMigrator.Runner.MySql.pdb",
+        "lib/netstandard2.0/FluentMigrator.Runner.MySql.xml",
+        "logo.png"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/9.0.8": {
       "sha512": "bNGdPhN762+BIIO5MFYLjafRqkSS1MqLOc/erd55InvLnFxt9H3N5JNsuag1ZHyBor1VtD42U0CHpgqkWeAYgQ==",
       "type": "package",
@@ -394,10 +640,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
-      "sha512": "lqvd7W3FGKUO1+ZoUEMaZ5XDJeWvjpy2/M/ptCGz3tXLD4HWVaSzjufsAsjemasBEg+2SxXVtYVvGt5r2nKDlg==",
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+      "sha512": "I0O/270E/lUNqbBxlRVjxKOMZyYjP88dpEgQTveml+h2lTzAP4vbawLVwjS9SC7lKaU893bwyyNz0IVJYsm9EA==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.0",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -417,7 +663,7 @@
         "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -700,6 +946,140 @@
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "sha512": "dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "type": "package",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net45/_._",
+        "lib/net461/System.ComponentModel.Annotations.dll",
+        "lib/netcore50/System.ComponentModel.Annotations.dll",
+        "lib/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "lib/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "lib/portable-net45+win8/_._",
+        "lib/win8/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/_._",
+        "ref/net461/System.ComponentModel.Annotations.dll",
+        "ref/net461/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/System.ComponentModel.Annotations.dll",
+        "ref/netcore50/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/de/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/es/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/fr/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/it/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ja/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ko/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/ru/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netcore50/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.1/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.1/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.3/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.3/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.dll",
+        "ref/netstandard1.4/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/de/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/es/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/fr/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/it/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ja/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ko/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/ru/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hans/System.ComponentModel.Annotations.xml",
+        "ref/netstandard1.4/zh-hant/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.0/System.ComponentModel.Annotations.xml",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.dll",
+        "ref/netstandard2.1/System.ComponentModel.Annotations.xml",
+        "ref/portable-net45+win8/_._",
+        "ref/win8/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.componentmodel.annotations.5.0.0.nupkg.sha512",
+        "system.componentmodel.annotations.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.ValueTuple/4.5.0": {
+      "sha512": "okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "type": "package",
+      "path": "system.valuetuple/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.ValueTuple.dll",
+        "lib/net461/System.ValueTuple.xml",
+        "lib/net47/System.ValueTuple.dll",
+        "lib/net47/System.ValueTuple.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.ValueTuple.dll",
+        "lib/netstandard1.0/System.ValueTuple.xml",
+        "lib/netstandard2.0/_._",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "lib/portable-net40+sl4+win8+wp8/System.ValueTuple.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.ValueTuple.dll",
+        "ref/net47/System.ValueTuple.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/_._",
+        "ref/portable-net40+sl4+win8+wp8/System.ValueTuple.dll",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.valuetuple.4.5.0.nupkg.sha512",
+        "system.valuetuple.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "DataComemorativa.Domain/1.0.0": {
       "type": "project",
       "path": "../DatasComemorativas.Domain/DataComemorativa.Domain.csproj",
@@ -708,7 +1088,10 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Dapper >= 2.1.66",
       "DataComemorativa.Domain >= 1.0.0",
+      "FluentMigrator >= 7.1.0",
+      "FluentMigrator.Runner.MySql >= 7.1.0",
       "Microsoft.EntityFrameworkCore >= 9.0.8",
       "Microsoft.Extensions.DependencyInjection >= 9.0.8",
       "Pomelo.EntityFrameworkCore.MySql >= 9.0.0"
@@ -768,6 +1151,18 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.1.66, )"
+          },
+          "FluentMigrator": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
+          "FluentMigrator.Runner.MySql": {
+            "target": "Package",
+            "version": "[7.1.0, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[9.0.8, )"

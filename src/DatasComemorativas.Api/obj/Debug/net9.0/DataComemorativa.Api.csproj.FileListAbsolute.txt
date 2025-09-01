@@ -58,3 +58,11 @@ C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\MySqlConnector.dll
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Dapper.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.Extensions.MySql.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.Runner.Core.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.Runner.MySql.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\de-DE\FluentMigrator.Abstractions.resources.dll

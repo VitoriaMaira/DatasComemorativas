@@ -8,13 +8,94 @@
     ".NETCoreApp,Version=v9.0": {
       "DataComemorativa.Infrastructure/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.66",
           "DataComemorativa.Domain": "1.0.0",
+          "FluentMigrator": "7.1.0",
+          "FluentMigrator.Runner.MySql": "7.1.0",
           "Microsoft.EntityFrameworkCore": "9.0.8",
           "Microsoft.Extensions.DependencyInjection": "9.0.8",
           "Pomelo.EntityFrameworkCore.MySql": "9.0.0"
         },
         "runtime": {
           "DataComemorativa.Infrastructure.dll": {}
+        }
+      },
+      "Dapper/2.1.66": {
+        "runtime": {
+          "lib/net8.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.66.48463"
+          }
+        }
+      },
+      "FluentMigrator/7.1.0": {
+        "dependencies": {
+          "FluentMigrator.Abstractions": "7.1.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "FluentMigrator.Abstractions/7.1.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "5.0.0",
+          "System.ValueTuple": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Abstractions.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        },
+        "resources": {
+          "lib/netstandard2.0/de-DE/FluentMigrator.Abstractions.resources.dll": {
+            "locale": "de-DE"
+          }
+        }
+      },
+      "FluentMigrator.Extensions.MySql/7.1.0": {
+        "dependencies": {
+          "FluentMigrator.Abstractions": "7.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Extensions.MySql.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "FluentMigrator.Runner.Core/7.1.0": {
+        "dependencies": {
+          "FluentMigrator": "7.1.0",
+          "FluentMigrator.Abstractions": "7.1.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8",
+          "Microsoft.Extensions.Logging": "9.0.8",
+          "Microsoft.Extensions.Options": "9.0.8"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Runner.Core.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "FluentMigrator.Runner.MySql/7.1.0": {
+        "dependencies": {
+          "FluentMigrator": "7.1.0",
+          "FluentMigrator.Extensions.MySql": "7.1.0",
+          "FluentMigrator.Runner.Core": "7.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentMigrator.Runner.MySql.dll": {
+            "assemblyVersion": "7.1.0.0",
+            "fileVersion": "7.1.0.0"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore/9.0.8": {
@@ -44,7 +125,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.8",
           "Microsoft.Extensions.Caching.Memory": "9.0.8",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
           "Microsoft.Extensions.Logging": "9.0.8"
         },
         "runtime": {
@@ -80,14 +161,14 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
+      "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "9.0.8"
         },
         "runtime": {
           "lib/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.24.52809"
+            "fileVersion": "9.0.225.6610"
           }
         }
       },
@@ -178,6 +259,8 @@
           }
         }
       },
+      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.ValueTuple/4.5.0": {},
       "DataComemorativa.Domain/1.0.0": {
         "runtime": {
           "DataComemorativa.Domain.dll": {
@@ -193,6 +276,48 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.1.66": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/q77jUgDOS+bzkmk3Vy9SiWMaetTw+NOoPAV0xPBsGVAyljd5S6P+4RUW7R3ZUGGr9lDRyPKgAMj2UAOwvqZYw==",
+      "path": "dapper/2.1.66",
+      "hashPath": "dapper.2.1.66.nupkg.sha512"
+    },
+    "FluentMigrator/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CA2xJsEQaGVn/jHmwhTqzgMSNUlNoPJ4G3IMKyHwlbTTLUHxiSllKfreejq29G5W5gz5MVtD23lWmBT/LnSLKg==",
+      "path": "fluentmigrator/7.1.0",
+      "hashPath": "fluentmigrator.7.1.0.nupkg.sha512"
+    },
+    "FluentMigrator.Abstractions/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dmO8Zo3V/lRPsL/FeWUSLwCFJoOQvb2fog/oKRkUHzOIdLiwIrFVbD1HIOpDJEHGxm7f/3n3emCv+mhTsa1A0Q==",
+      "path": "fluentmigrator.abstractions/7.1.0",
+      "hashPath": "fluentmigrator.abstractions.7.1.0.nupkg.sha512"
+    },
+    "FluentMigrator.Extensions.MySql/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-apSeo81umqNp1+To/KHvcUt/i1RZ0TKRYZ4cnkXn5VAzkeUEv2XWQY7/WGm7R4QMfM2hBwc8cIfRzdJXWeio8g==",
+      "path": "fluentmigrator.extensions.mysql/7.1.0",
+      "hashPath": "fluentmigrator.extensions.mysql.7.1.0.nupkg.sha512"
+    },
+    "FluentMigrator.Runner.Core/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kbnkwYTuNSNY64YVfwFftO5BCu81cjoZDvQeTgz6T55hRajSNQxIxXjTl7T1wlQQIz6/64e1CYx7suEZYptvig==",
+      "path": "fluentmigrator.runner.core/7.1.0",
+      "hashPath": "fluentmigrator.runner.core.7.1.0.nupkg.sha512"
+    },
+    "FluentMigrator.Runner.MySql/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jS4mtgBiO4yK9Lzm1oCHQEna1Ao81a0DG8RKNQwus+KWa+zmFmC0CLoY/K2uCbw4sUQ1NOWGPhtZgg6g6+U+Iw==",
+      "path": "fluentmigrator.runner.mysql/7.1.0",
+      "hashPath": "fluentmigrator.runner.mysql.7.1.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/9.0.8": {
       "type": "package",
@@ -236,12 +361,12 @@
       "path": "microsoft.extensions.caching.memory/9.0.8",
       "hashPath": "microsoft.extensions.caching.memory.9.0.8.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.0": {
+    "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lqvd7W3FGKUO1+ZoUEMaZ5XDJeWvjpy2/M/ptCGz3tXLD4HWVaSzjufsAsjemasBEg+2SxXVtYVvGt5r2nKDlg==",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.0",
-      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.0.nupkg.sha512"
+      "sha512": "sha512-I0O/270E/lUNqbBxlRVjxKOMZyYjP88dpEgQTveml+h2lTzAP4vbawLVwjS9SC7lKaU893bwyyNz0IVJYsm9EA==",
+      "path": "microsoft.extensions.configuration.abstractions/9.0.2",
+      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.8": {
       "type": "package",
@@ -298,6 +423,20 @@
       "sha512": "sha512-cl7S4s6CbJno0LjNxrBHNc2xxmCliR5i40ATPZk/eTywVaAbHCbdc9vbGc3QThvwGjHqrDHT8vY9m1VF/47o0g==",
       "path": "pomelo.entityframeworkcore.mysql/9.0.0",
       "hashPath": "pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dMkqfy2el8A8/I76n2Hi1oBFEbG1SfxD2l5nhwXV3XjlnOmwxJlQbYpJH4W51odnU9sARCSAgv7S3CyAFMkpYg==",
+      "path": "system.componentmodel.annotations/5.0.0",
+      "hashPath": "system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    },
+    "System.ValueTuple/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-okurQJO6NRE/apDIP23ajJ0hpiNmJ+f0BwOlB/cSqTLQlw5upkf+5+96+iG2Jw40G1fCVCyPz/FhIABUjMR+RQ==",
+      "path": "system.valuetuple/4.5.0",
+      "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
     },
     "DataComemorativa.Domain/1.0.0": {
       "type": "project",
