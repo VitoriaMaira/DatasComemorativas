@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataComemorativa.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f7d55c7cd365596661d3820a8f292dac9105d745")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataComemorativa.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataComemorativa.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
