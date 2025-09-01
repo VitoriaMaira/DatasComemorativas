@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kLvNhz/ZBjI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\DatasComemorativas.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Atalaia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\Atalaia\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
