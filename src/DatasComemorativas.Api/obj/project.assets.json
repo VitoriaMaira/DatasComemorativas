@@ -484,7 +484,8 @@
         "dependencies": {
           "DataComemorativa.Communication": "1.0.0",
           "DataComemorativa.Domain": "1.0.0",
-          "DataComemorativa.Exception": "1.0.0"
+          "DataComemorativa.Exception": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection": "9.0.8"
         },
         "compile": {
           "bin/placeholder/DataComemorativa.Application.dll": {}

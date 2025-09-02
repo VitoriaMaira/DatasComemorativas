@@ -1,4 +1,5 @@
 
+using DataComemorativa.Application;
 using DataComemorativa.Infrastructure;
 using DataComemorativa.Infrastructure.Migrations;
 
@@ -14,6 +15,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplication();
 
 var app = builder.Build();
 
@@ -36,6 +38,7 @@ await MigrateDatabase();
 
 app.Run();
 
+// Faz a migração do banco de dados
 async Task MigrateDatabase()
 {
     await using var scope = app.Services.CreateAsyncScope();
