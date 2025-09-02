@@ -31,6 +31,8 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
             };
             await _dataComemorativaRepository.AddAsync(data);
 
+            await _unitOfWork.Commit(); 
+
             return new RegisterDataComemorativaResponse ("Data inserida comn sucesso");
         }
     }

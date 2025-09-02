@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataComemorativa.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ceafb9130f11a76bbcd53b024af9b5b284d45682")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55e925ef9ebb3ca65f7de9e80c2473d1babe8a0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataComemorativa.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataComemorativa.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
