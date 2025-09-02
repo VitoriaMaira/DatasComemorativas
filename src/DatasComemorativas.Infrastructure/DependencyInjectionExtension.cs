@@ -1,6 +1,7 @@
 ﻿using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Infrastructure.DataAcess;
 using DataComemorativa.Infrastructure.DataAcess.Repositories;
+using DataComemorativa.Infrastructure.DataAcess.Repositories.DataComemorativa;
 using FluentMigrator.Runner;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +21,8 @@ public static class DependencyInjectionExtension
 
     private static void AddRepositories(IServiceCollection services)
     {
-       services.AddScoped<IDataComemorativaRepository, DataComemorativaRepository>();
+        services.AddScoped<IDataComemorativaRepository, DataComemorativaRepository>();
+        services.AddScoped<IUnitOfWork, UnitOfWork>();
     }
 
     private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
