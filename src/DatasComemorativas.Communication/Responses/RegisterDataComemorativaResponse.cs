@@ -9,5 +9,11 @@ namespace DataComemorativa.Communication.Responses
     public class RegisterDataComemorativaResponse
     {
         public string Message { get; set; }
+
+        public RegisterDataComemorativaResponse(string message)
+        {
+            Message = message;
+        }
     }
+    
 }

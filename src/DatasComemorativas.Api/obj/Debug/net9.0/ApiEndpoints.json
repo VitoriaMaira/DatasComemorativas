@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "ContainingType": "DataComemorativa.Api.Controllers.DataComemorativaController",
+    "Method": "InserirDataComemorativa",
+    "RelativePath": "api/DataComemorativa/data/inserir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "DataComemorativa.Communication.Requests.RegisterDataComemorativaRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
