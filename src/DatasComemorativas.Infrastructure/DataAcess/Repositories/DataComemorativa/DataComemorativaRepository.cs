@@ -1,19 +1,38 @@
-﻿//using DataComemorativa.Domain.Entities;
-//using DataComemorativa.Domain.Repositories.DataComemorativa;
+﻿using DataComemorativa.Domain.Entities;
+using DataComemorativa.Domain.Repositories.DataComemorativa;
+using Microsoft.EntityFrameworkCore;
 
+namespace DataComemorativa.Infrastructure.DataAcess.Repositories
+{
+    //serve 
+    public class DataComemorativaRepository : IDataComemorativaRepository
+    {
+        private readonly DataComemorativaDbContext _dbContext;
+        public DataComemorativaRepository(DataComemorativaDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }
 
-//namespace DataComemorativa.Infrastructure.DataAcess.Repositories
-//{
+        public async Task AddAsync(Data data)
+        {
+            await _dbContext.Datas.AddAsync(data);
+        }
 
-//    internal class DataComemorativaRepository : IDataComemorativaRepository
-//    {
-//        public void Add(Data data)
-//        {
-//            var dbContext = new DataComemorativaDbContext();
+        public async Task DeleteAsync(Data data)
+        {
+            _dbContext.Datas.Remove(data);
+            await Task.CompletedTask;
+        }
 
-//            dbContext.datas.Add(data);
+        public Task<List<Data>> GetAllAsync()
+        {
+            return _dbContext.Datas.ToListAsync();
+        }
 
-//            dbContext.SaveChanges();
-//        }
-//    }
-//}
+        public async Task UpdateAsync(Data data)
+        {
+            _dbContext.Datas.Update(data);
+            await Task.CompletedTask;
+        }
+    }
+}
