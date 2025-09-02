@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataComemorativa.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3b97690f59a8c29d7c77e3e0dc8c97a9f4fc08d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cfd3afef439f465e8e6177a14a0cb1fbfbb523c9")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataComemorativa.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataComemorativa.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
