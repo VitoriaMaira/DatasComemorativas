@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using DataComemorativa.Domain.Entities;
+using DataComemorativa.Infrastructure.DataAccess.Mappings;
 
 
 namespace DataComemorativa.Infrastructure.DataAcess
@@ -10,7 +11,7 @@ namespace DataComemorativa.Infrastructure.DataAcess
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
+            modelBuilder.ApplyConfiguration(new DataMap());
         }
     }
 }

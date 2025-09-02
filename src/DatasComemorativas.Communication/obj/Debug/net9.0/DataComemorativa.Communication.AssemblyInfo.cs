@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataComemorativa.Communication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ae1104c470b634f9a2e36b91d128ddfad5206e4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b38ee9b8e0d974700bc809cd81b9ee0bc5ddc15c")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataComemorativa.Communication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataComemorativa.Communication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
