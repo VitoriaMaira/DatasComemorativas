@@ -8,6 +8,9 @@ namespace DataComemorativa.Infrastructure.DataAcess
     public class DataComemorativaDbContext : DbContext
     {
         public DataComemorativaDbContext(DbContextOptions<DataComemorativaDbContext> options) : base(options) { }
+
+        public DbSet<Data> Datas { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
