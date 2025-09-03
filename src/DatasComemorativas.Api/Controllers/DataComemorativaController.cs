@@ -15,7 +15,7 @@ namespace DataComemorativa.Api.Controllers
             [FromServices] IRegisterDataComemorativaUseCase useCase)
         {
             var response = await useCase.Execute(request);
-            return Ok(response);
+            return  Created(string.Empty, response);
         }
     }
 }

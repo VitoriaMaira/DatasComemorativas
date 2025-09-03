@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "a20qpaKvWOI=",
+  "dgSpecHash": "dtCQCEs7Qyg=",
   "success": true,
   "projectFilePath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "C:\\Users\\Atalaia\\.nuget\\packages\\fluentmigrator.extensions.mysql\\7.1.0\\fluentmigrator.extensions.mysql.7.1.0.nupkg.sha512",
     "C:\\Users\\Atalaia\\.nuget\\packages\\fluentmigrator.runner.core\\7.1.0\\fluentmigrator.runner.core.7.1.0.nupkg.sha512",
     "C:\\Users\\Atalaia\\.nuget\\packages\\fluentmigrator.runner.mysql\\7.1.0\\fluentmigrator.runner.mysql.7.1.0.nupkg.sha512",
+    "C:\\Users\\Atalaia\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\Atalaia\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
     "C:\\Users\\Atalaia\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.8\\microsoft.entityframeworkcore.9.0.8.nupkg.sha512",
     "C:\\Users\\Atalaia\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.8\\microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512",

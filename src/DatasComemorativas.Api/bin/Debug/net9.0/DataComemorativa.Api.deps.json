@@ -99,6 +99,14 @@
           }
         }
       },
+      "FluentValidation/12.0.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.0.0"
+          }
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/9.0.7": {
         "dependencies": {
           "Microsoft.OpenApi": "1.6.25"
@@ -316,6 +324,7 @@
           "DataComemorativa.Communication": "1.0.0",
           "DataComemorativa.Domain": "1.0.0",
           "DataComemorativa.Exception": "1.0.0",
+          "FluentValidation": "12.0.0",
           "Microsoft.Extensions.DependencyInjection": "9.0.8"
         },
         "runtime": {
@@ -415,6 +424,13 @@
       "sha512": "sha512-jS4mtgBiO4yK9Lzm1oCHQEna1Ao81a0DG8RKNQwus+KWa+zmFmC0CLoY/K2uCbw4sUQ1NOWGPhtZgg6g6+U+Iw==",
       "path": "fluentmigrator.runner.mysql/7.1.0",
       "hashPath": "fluentmigrator.runner.mysql.7.1.0.nupkg.sha512"
+    },
+    "FluentValidation/12.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8NVLxtMUXynRHJIX3Hn1ACovaqZIJASufXIIFkD0EUbcd5PmMsL1xUD5h548gCezJ5BzlITaR9CAMrGe29aWpA==",
+      "path": "fluentvalidation/12.0.0",
+      "hashPath": "fluentvalidation.12.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.OpenApi/9.0.7": {
       "type": "package",

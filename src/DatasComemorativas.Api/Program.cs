@@ -1,4 +1,5 @@
 
+using DataComemorativa.Api.Filters;
 using DataComemorativa.Application;
 using DataComemorativa.Infrastructure;
 using DataComemorativa.Infrastructure.Migrations;
@@ -16,6 +17,9 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure(builder.Configuration);
 builder.Services.AddApplication();
+
+builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
+
 
 var app = builder.Build();
 

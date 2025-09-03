@@ -66,3 +66,4 @@ C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentMigrator.Runner.MySql.dll
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\de-DE\FluentMigrator.Abstractions.resources.dll
+C:\Users\Atalaia\source\repos\DatasComemorativas\src\DatasComemorativas.Api\bin\Debug\net9.0\FluentValidation.dll
