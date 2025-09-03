@@ -3,7 +3,8 @@ using FluentValidation;
 
 namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
 {
-    public class RegisterDataComemorativaValidator : AbstractValidator<RegisterDataComemorativaRequest>
+    // Validador para o request de registro de data comemorativa
+    public class RegisterDataComemorativaValidator : AbstractValidator<RequestRegisterDataComemorativa>
     {
         public RegisterDataComemorativaValidator()
         {

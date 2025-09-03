@@ -1,7 +1,32 @@
 [
   {
     "ContainingType": "DataComemorativa.Api.Controllers.DataComemorativaController",
-    "Method": "InserirDataComemorativa",
+    "Method": "GetAll",
+    "RelativePath": "api/DataComemorativa",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "DataComemorativa.Communication.Responses.ResponseDataComemorativa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ]
+  },
+  {
+    "ContainingType": "DataComemorativa.Api.Controllers.DataComemorativaController",
+    "Method": "Register",
     "RelativePath": "api/DataComemorativa/data/inserir",
     "HttpMethod": "POST",
     "IsController": true,
@@ -9,10 +34,29 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "DataComemorativa.Communication.Requests.RegisterDataComemorativaRequest",
+        "Type": "DataComemorativa.Communication.Requests.RequestRegisterDataComemorativa",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "DataComemorativa.Communication.Responses.ResponseRegisterDataComemorativa",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 201
+      },
+      {
+        "Type": "DataComemorativa.Communication.Responses.ResponseError",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   }
 ]

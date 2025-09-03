@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace DataComemorativa.Communication.Responses
 {
-    public class RegisterDataComemorativaResponse
+    public class ResponseRegisterDataComemorativa
     {
         public string Message { get; set; }
 
-        public RegisterDataComemorativaResponse(string message)
+        public ResponseRegisterDataComemorativa(string message)
         {
             Message = message;
         }

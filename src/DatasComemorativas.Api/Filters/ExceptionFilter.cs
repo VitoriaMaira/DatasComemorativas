@@ -12,11 +12,11 @@ namespace DataComemorativa.Api.Filters
         {
             if (context.Exception is DataComemorativaException)
             {
-                //Tratar exceções específicas do projeto
+
                 HandleProjectException(context);
             }
             else
-            {   //Tratar exceções desconhecidas
+            {
                 ThrowUnknowError(context);
             }
         }
@@ -37,7 +37,7 @@ namespace DataComemorativa.Api.Filters
             //Se for outro tipo de exceção personalizada, pode ser tratado aqui
             else
             {
-                var errorResponse = new ResponseError(context.Exception.Message); //para retornar uma mensagem de erro personalizada para o usuário, caso ele envie dados inválidos em formato Json
+                var errorResponse = new ResponseError(context.Exception.Message); 
 
                 context.HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
                 context.Result = new BadRequestObjectResult(errorResponse);

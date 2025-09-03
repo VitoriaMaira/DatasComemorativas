@@ -24,9 +24,9 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             await Task.CompletedTask;
         }
 
-        public Task<List<Data>> GetAllAsync()
+        public async Task<List<Data>> GetAllAsync()
         {
-            return _dbContext.Datas.ToListAsync();
+            return await _dbContext.Datas.ToListAsync();
         }
 
         public async Task UpdateAsync(Data data)
