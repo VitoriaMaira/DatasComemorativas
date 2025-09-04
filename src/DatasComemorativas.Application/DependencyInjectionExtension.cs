@@ -1,4 +1,5 @@
-﻿using DataComemorativa.Application.UseCases.DataComemorativa.GetAll;
+﻿using DataComemorativa.Application.UseCases.DataComemorativa.Delete;
+using DataComemorativa.Application.UseCases.DataComemorativa.GetAll;
 using DataComemorativa.Application.UseCases.DataComemorativa.Register;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -10,6 +11,9 @@ namespace DataComemorativa.Application
         {
             services.AddScoped<IRegisterDataComemorativaUseCase, RegisterDataComemorativaUseCase>();
             services.AddScoped<IGetAllDataComemorativaUseCase, GetAllDataComemorativaUseCase>();
+            services.AddScoped<IDeleteDataComemorativaUseCase, DeleteDataComemorativaUseCase>();
+
+            
         }
     }
 }

@@ -3,18 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|solutionrelative:src\\datascomemorativas.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.exception\\exceptionbase\\datacomemorativaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|solutionrelative:src\\datascomemorativas.exception\\exceptionbase\\datacomemorativaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.exception\\exceptionbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|solutionrelative:src\\datascomemorativas.exception\\exceptionbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.api\\controllers\\datacomemorativacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|solutionrelative:src\\datascomemorativas.api\\controllers\\datacomemorativacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,8 +11,24 @@
       "RelativeMoniker": "D:0:0:{C8C01E23-9F35-4985-B159-AE1674D9D4B7}|src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj|solutionrelative:src\\datascomemorativas.application\\usecases\\datacomemorativa\\delete\\deletedatacomemorativausecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C8C01E23-9F35-4985-B159-AE1674D9D4B7}|src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C8C01E23-9F35-4985-B159-AE1674D9D4B7}|src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj|solutionrelative:src\\datascomemorativas.application\\dependencyinjectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|solutionrelative:src\\datascomemorativas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.exception\\exceptionbase\\datacomemorativaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|solutionrelative:src\\datascomemorativas.exception\\exceptionbase\\datacomemorativaexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|solutionrelative:src\\datascomemorativas.api\\filters\\exceptionfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.exception\\exceptionbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4BCD795-4633-487F-A192-17CD403CCFBC}|src\\DatasComemorativas.Exception\\DataComemorativa.Exception.csproj|solutionrelative:src\\datascomemorativas.exception\\exceptionbase\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B41A4C0E-CA80-4AF7-A229-83A3963220A7}|src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj|c:\\users\\atalaia\\source\\repos\\datascomemorativas\\src\\datascomemorativas.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -46,17 +50,17 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "DataComemorativaController.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Controllers\\DataComemorativaController.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Api\\Controllers\\DataComemorativaController.cs",
               "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Controllers\\DataComemorativaController.cs",
               "RelativeToolTip": "src\\DatasComemorativas.Api\\Controllers\\DataComemorativaController.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAiwDQAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDQAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T12:08:31.892Z",
               "IsPinned": true,
@@ -81,6 +85,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DependencyInjectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DependencyInjectionExtension.cs",
+              "RelativeDocumentMoniker": "src\\DatasComemorativas.Application\\DependencyInjectionExtension.cs",
+              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DependencyInjectionExtension.cs",
+              "RelativeToolTip": "src\\DatasComemorativas.Application\\DependencyInjectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:39:34.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\DatasComemorativas.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Program.cs",
+              "RelativeToolTip": "src\\DatasComemorativas.Api\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T13:10:40.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeleteDataComemorativaUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
+              "RelativeDocumentMoniker": "src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
+              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
+              "RelativeToolTip": "src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-04T19:20:17.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "NotFoundException.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\ExceptionBase\\NotFoundException.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Exception\\ExceptionBase\\NotFoundException.cs",
@@ -93,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "DataComemorativaException.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\ExceptionBase\\DataComemorativaException.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Exception\\ExceptionBase\\DataComemorativaException.cs",
@@ -106,46 +149,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ExceptionFilter.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs",
-              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs*",
-              "RelativeToolTip": "src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs",
+              "RelativeToolTip": "src\\DatasComemorativas.Api\\Filters\\ExceptionFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T12:48:18.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeleteDataComemorativaUseCase.cs",
-              "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
-              "RelativeDocumentMoniker": "src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
-              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
-              "RelativeToolTip": "src\\DatasComemorativas.Application\\UseCases\\DataComemorativa\\Delete\\DeleteDataComemorativaUseCase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T19:20:17.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Program.cs",
-              "RelativeDocumentMoniker": "src\\DatasComemorativas.Api\\Program.cs",
-              "ToolTip": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\Program.cs",
-              "RelativeToolTip": "src\\DatasComemorativas.Api\\Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-04T13:10:40.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "ErrorOnValidationException.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Exception\\ExceptionBase\\ErrorOnValidationException.cs",
@@ -157,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Api\\appsettings.Development.json",
@@ -169,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "IDataComemorativaRepository.cs",
               "DocumentMoniker": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Domain\\Repositories\\DataComemorativa\\IDataComemorativaRepository.cs",
               "RelativeDocumentMoniker": "src\\DatasComemorativas.Domain\\Repositories\\DataComemorativa\\IDataComemorativaRepository.cs",
