@@ -7,7 +7,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.GetAll
 
     {
         private readonly IDataComemorativaRepository _repository;
-       
+
 
         public GetAllDataComemorativaUseCase(IDataComemorativaRepository repository)
         {
@@ -23,7 +23,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.GetAll
                 Id = d.Id,
                 Name = d.Name,
                 Date = d.Date,
-                Description = d.Descryption  
+                Description = d.Description
             }).ToList();
 
             return new ResponseDataComemorativa

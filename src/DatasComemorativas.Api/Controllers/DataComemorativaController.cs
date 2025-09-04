@@ -1,8 +1,8 @@
-﻿using DataComemorativa.Application.UseCases.DataComemorativa.GetAll;
+﻿using DataComemorativa.Application.UseCases.DataComemorativa.Delete;
+using DataComemorativa.Application.UseCases.DataComemorativa.GetAll;
 using DataComemorativa.Application.UseCases.DataComemorativa.Register;
 using DataComemorativa.Communication.Requests;
 using DataComemorativa.Communication.Responses;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DataComemorativa.Api.Controllers
@@ -25,7 +25,6 @@ namespace DataComemorativa.Api.Controllers
         [HttpGet]
         [ProducesResponseType(typeof(ResponseDataComemorativa), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
-
         public async Task<IActionResult> GetAll(
             [FromServices] IGetAllDataComemorativaUseCase useCase)
         {
@@ -37,5 +36,29 @@ namespace DataComemorativa.Api.Controllers
             return NoContent();
 
         }
+
+        //[HttpPut]
+        //[Route("{id}")]
+        //public async Task<IActionResult> Update(
+        //    [FromServices] IUpdateDataComemorativaUseCase useCase,
+        //    [FromRoute] int id,
+        //    [FromBody] RequestRegisterDataComemorativa request)
+        //{
+        //    await useCase.Execute(id, request);
+        //    return NoContent();
+        //}
+
+        [HttpDelete]
+        [Route("{id}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(typeof(ResponseError), StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> Delete(
+            [FromServices] IDeleteDataComemorativaUseCase useCase,
+            [FromRoute] int id)
+        {
+            await useCase.Execute(id);
+            return NoContent();
+        }
+
     }
 }

@@ -26,6 +26,37 @@
   },
   {
     "ContainingType": "DataComemorativa.Api.Controllers.DataComemorativaController",
+    "Method": "Delete",
+    "RelativePath": "api/DataComemorativa/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      },
+      {
+        "Type": "DataComemorativa.Communication.Responses.ResponseError",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "DataComemorativa.Api.Controllers.DataComemorativaController",
     "Method": "Register",
     "RelativePath": "api/DataComemorativa/data/inserir",
     "HttpMethod": "POST",

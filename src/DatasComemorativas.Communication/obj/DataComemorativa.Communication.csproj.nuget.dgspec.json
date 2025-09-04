@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj": {}
+    "C:\\Users\\vitor\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj": {
+    "C:\\Users\\vitor\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
+        "projectUniqueName": "C:\\Users\\vitor\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
         "projectName": "DataComemorativa.Communication",
-        "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
-        "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\obj\\",
+        "projectPath": "C:\\Users\\vitor\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\DataComemorativa.Communication.csproj",
+        "packagesPath": "C:\\Users\\vitor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vitor\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Communication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Atalaia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vitor\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

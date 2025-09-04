@@ -17,6 +17,6 @@ internal class DataMap : IEntityTypeConfiguration<Data>
         builder.Property(d => d.Id).HasColumnName("id");
         builder.Property(d => d.Name).HasColumnName("name");
         builder.Property(d => d.Date).HasColumnName("date");
-        builder.Property(d => d.Descryption).HasColumnName("descryption");
+        builder.Property(d => d.Description).HasColumnName("descryption");
     }
 }

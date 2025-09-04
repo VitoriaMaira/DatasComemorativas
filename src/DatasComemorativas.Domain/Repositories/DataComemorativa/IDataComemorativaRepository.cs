@@ -6,7 +6,10 @@ namespace DataComemorativa.Domain.Repositories.DataComemorativa
     {
         Task AddAsync(Data data);
         Task<List<Data>> GetAllAsync();
-        Task UpdateAsync(Data data);
-        Task DeleteAsync(Data data); 
+        Task<Data> GetByIdAsync(int id);
+        //Task UpdateAsync(Data data);
+        Task DeleteAsync(Data data);
+
+
     }
 }

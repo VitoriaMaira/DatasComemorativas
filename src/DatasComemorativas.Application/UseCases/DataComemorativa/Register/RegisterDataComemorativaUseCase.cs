@@ -2,11 +2,6 @@
 using DataComemorativa.Communication.Responses;
 using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Exception.ExceptionBase;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
 {
@@ -14,7 +9,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
     {
         private readonly IDataComemorativaRepository _dataComemorativaRepository;
         private readonly IUnitOfWork _unitOfWork;
-       
+
 
         public RegisterDataComemorativaUseCase(IDataComemorativaRepository dataComemorativaRepository,
             IUnitOfWork unitOfWork)
@@ -31,7 +26,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
             {
                 Name = request.Name,
                 Date = request.Date,
-                Descryption = request.Description
+                Description = request.Description
             };
             await _dataComemorativaRepository.AddAsync(data);
 
@@ -44,13 +39,13 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
         private void Validate(RequestRegisterDataComemorativa request)
         {
             var validator = new RegisterDataComemorativaValidator();
-            
+
             var validationResult = validator.Validate(request);
 
             if (!validationResult.IsValid)
-            { 
+            {
                 var errorMessages = validationResult.Errors.Select(e => e.ErrorMessage).ToList();
-                throw new ErrorOnValidationException(errorMessages); 
+                throw new ErrorOnValidationException(errorMessages);
             }
 
         }

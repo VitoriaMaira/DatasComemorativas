@@ -21,7 +21,7 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
         public async Task DeleteAsync(Data data)
         {
             _dbContext.Datas.Remove(data);
-            await Task.CompletedTask;
+            await Task.CompletedTask; // Para manter assinatura async
         }
 
         public async Task<List<Data>> GetAllAsync()
@@ -29,10 +29,13 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             return await _dbContext.Datas.ToListAsync();
         }
 
-        public async Task UpdateAsync(Data data)
+        public Task<Data> GetByIdAsync(int id)
         {
-            _dbContext.Datas.Update(data);
-            await Task.CompletedTask;
+            throw new NotImplementedException();
         }
+
+
+
+        //public async Task<Data> Update()
     }
 }
