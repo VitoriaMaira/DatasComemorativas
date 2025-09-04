@@ -8,7 +8,7 @@ namespace DataComemorativa.Domain.Repositories.DataComemorativa
         Task<List<Data>> GetAllAsync();
         Task<Data> GetByIdAsync(int id);
         //Task UpdateAsync(Data data);
-        Task DeleteAsync(Data data);
+        Task DeleteAsync(int id);
 
 
     }

@@ -1,27 +1,29 @@
 ﻿using DataComemorativa.Domain.Repositories.DataComemorativa;
+using DataComemorativa.Exception.ExceptionBase;
+using System.Reflection;
 
 namespace DataComemorativa.Application.UseCases.DataComemorativa.Delete;
 public class DeleteDataComemorativaUseCase : IDeleteDataComemorativaUseCase
 {
-    private readonly IDataComemorativaRepository _dataComemorativaRepository;
+    private readonly IDataComemorativaRepository _repository;
     private readonly IUnitOfWork _unitOfWork;
-    public DeleteDataComemorativaUseCase(IDataComemorativaRepository dataComemorativaRepository, IUnitOfWork unitOfWork)
+    public DeleteDataComemorativaUseCase(IDataComemorativaRepository repository, IUnitOfWork unitOfWork)
     {
-        _dataComemorativaRepository = dataComemorativaRepository;
+        _repository = repository;
         _unitOfWork = unitOfWork;
     }
 
     public async Task Execute(int id)
     {
-        var entity = await _dataComemorativaRepository.GetByIdAsync(id);
+        var data = await _repository.GetByIdAsync(id);
 
-        if (entity == null)
+        if (data is null)
         {
-            // Você pode lançar uma exceção ou apenas retornar
-            return;
+            throw new NotFoundException("Data não encontrada.");
         }
+        
 
-        await _dataComemorativaRepository.DeleteAsync(entity);
+        await _repository.DeleteAsync(id);
         await _unitOfWork.Commit();
     }
 }

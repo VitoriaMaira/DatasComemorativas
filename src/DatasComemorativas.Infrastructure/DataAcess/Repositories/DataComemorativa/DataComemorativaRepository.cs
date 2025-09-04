@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataComemorativa.Infrastructure.DataAcess.Repositories
 {
-    //serve 
+    
     public class DataComemorativaRepository : IDataComemorativaRepository
     {
         private readonly DataComemorativaDbContext _dbContext;
@@ -18,10 +18,20 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             await _dbContext.Datas.AddAsync(data);
         }
 
-        public async Task DeleteAsync(Data data)
+        //public async Task DeleteAsync(Data data)
+        //{
+        //    _dbContext.Datas.Remove(data);
+        //    await Task.CompletedTask; 
+        //}
+
+        public async Task DeleteAsync(int id)
         {
-            _dbContext.Datas.Remove(data);
-            await Task.CompletedTask; // Para manter assinatura async
+            var data = await _dbContext.Datas.FindAsync(id);
+            if (data != null)
+            {
+                _dbContext.Datas.Remove(data);
+            }
+            await Task.CompletedTask;
         }
 
         public async Task<List<Data>> GetAllAsync()
@@ -29,9 +39,9 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             return await _dbContext.Datas.ToListAsync();
         }
 
-        public Task<Data> GetByIdAsync(int id)
+        public async Task<Data> GetByIdAsync(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.Datas.FindAsync(id);
         }
 
 

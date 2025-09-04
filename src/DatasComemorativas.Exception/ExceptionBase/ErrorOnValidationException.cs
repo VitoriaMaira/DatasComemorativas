@@ -1,16 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DataComemorativa.Exception.ExceptionBase
+﻿namespace DataComemorativa.Exception.ExceptionBase
 {
     public class ErrorOnValidationException : DataComemorativaException
     {
+        public override int StatusCode => 400; 
+
+        public override List<string> GetErrors() => Errors;
+
         public List<string> Errors { get; set; }
 
-        public ErrorOnValidationException(List<string> errorsMessages)
+        public ErrorOnValidationException(List<string> errorsMessages) : base("Validation error")
         {
             Errors = errorsMessages;
         }
