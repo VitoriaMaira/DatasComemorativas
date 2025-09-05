@@ -1,5 +1,8 @@
-﻿namespace DataComemorativa.Application.UseCases.DataComemorativa.Delete;
+﻿using DataComemorativa.Communication.Requests;
+using DataComemorativa.Communication.Responses;
+
+namespace DataComemorativa.Application.UseCases.DataComemorativa.Delete;
 public interface IDeleteDataComemorativaUseCase
 {
-    public Task Execute(int id);
+    Task<ResponseDeleteDataComemorativa> Execute(int id, RequestDeleteDataComemorativa request);
 }

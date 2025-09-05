@@ -18,11 +18,6 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             await _dbContext.Datas.AddAsync(data);
         }
 
-        //public async Task DeleteAsync(Data data)
-        //{
-        //    _dbContext.Datas.Remove(data);
-        //    await Task.CompletedTask; 
-        //}
 
         public async Task DeleteAsync(int id)
         {
@@ -44,8 +39,12 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             return await _dbContext.Datas.FindAsync(id);
         }
 
+        public async Task UpdateAsync(Data data)
+        {
+            _dbContext.Datas.Update(data);
+            await Task.CompletedTask;
+        }
 
 
-        //public async Task<Data> Update()
     }
 }

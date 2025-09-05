@@ -32,7 +32,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
 
             await _unitOfWork.Commit();
 
-            return new ResponseRegisterDataComemorativa("Data inserida comn sucesso");
+            return new ResponseRegisterDataComemorativa("Data inserida com sucesso");
         }
 
 

@@ -1,4 +1,5 @@
 ﻿using DataComemorativa.Communication.Requests;
+using DataComemorativa.Communication.Responses;
 using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Exception.ExceptionBase;
 
@@ -17,7 +18,7 @@ public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
 
     }
 
-    public async Task Execute(int id, RequestRegisterDataComemorativa request)
+    public async Task<ResponseRegisterDataComemorativa> Execute(int id, RequestRegisterDataComemorativa request)
     {
         Validate(request);
         
@@ -30,6 +31,9 @@ public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
         dataComemorativa.Description = request.Description;
         
         await _unitOfWork.Commit();
+        
+        return new ResponseRegisterDataComemorativa("Data atualizada com sucesso");
+
     }
 
     private void Validate(RequestRegisterDataComemorativa request)
@@ -46,13 +50,6 @@ public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
             throw new ErrorOnValidationException(errorMessages);
         }
 
-        //if (string.IsNullOrWhiteSpace(request.Name))
-        //{
-        //    throw new ArgumentException("Nome é obrigatório.");
-        //}
-        //if (request.Date == default)
-        //{
-        //    throw new ArgumentException("Data é obrigatória.");
-        //}
+   
     }
 }
