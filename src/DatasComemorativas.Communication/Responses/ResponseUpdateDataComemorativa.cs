@@ -17,5 +17,5 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Update
             Message = message;
         }
     }
-} 
+}
 

@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "request",
-        "Type": "DataComemorativa.Communication.Requests.RequestRegisterDataComemorativa",
+        "Type": "DataComemorativa.Communication.Requests.RequestDataComemorativa",
         "IsRequired": true
       }
     ],
@@ -74,7 +74,7 @@
       },
       {
         "Name": "request",
-        "Type": "DataComemorativa.Communication.Requests.RequestRegisterDataComemorativa",
+        "Type": "DataComemorativa.Communication.Requests.RequestDataComemorativa",
         "IsRequired": true
       }
     ],

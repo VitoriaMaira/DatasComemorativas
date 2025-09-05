@@ -10,6 +10,6 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
 {
     public interface IRegisterDataComemorativaUseCase
     {
-        Task<ResponseRegisterDataComemorativa> Execute(RequestRegisterDataComemorativa request);
+        Task<ResponseRegisterDataComemorativa> Execute(RequestDataComemorativa request);
     }
 }

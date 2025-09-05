@@ -4,7 +4,7 @@ using FluentValidation;
 namespace DataComemorativa.Application.UseCases.DataComemorativa
 {
     // Validador para o request de registro de data comemorativa
-    public class DataComemorativaValidator : AbstractValidator<RequestRegisterDataComemorativa>
+    public class DataComemorativaValidator : AbstractValidator<RequestDataComemorativa> 
     {
         public DataComemorativaValidator()
         {
@@ -18,4 +18,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa
                 .MaximumLength(500).WithMessage("A descrição não pode exceder 500 caracteres.");
         }
     }
+
+
+
 }

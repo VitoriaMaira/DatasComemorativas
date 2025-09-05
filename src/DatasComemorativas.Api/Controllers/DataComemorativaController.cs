@@ -16,7 +16,7 @@ namespace DataComemorativa.Api.Controllers
         [ProducesResponseType(typeof(ResponseRegisterDataComemorativa), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register(
-            [FromBody] RequestRegisterDataComemorativa request,
+            [FromBody] RequestDataComemorativa request,
             [FromServices] IRegisterDataComemorativaUseCase useCase)
         {
             var response = await useCase.Execute(request);
@@ -45,7 +45,7 @@ namespace DataComemorativa.Api.Controllers
         public async Task<IActionResult> Update(
             [FromServices] IUpdateDataComemorativaUseCase useCase,
             [FromRoute] int id,
-            [FromBody] RequestRegisterDataComemorativa request)
+            [FromBody] RequestDataComemorativa request)
         {
            var response = await useCase.Execute(id, request);
 
