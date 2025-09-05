@@ -1,6 +1,7 @@
 ﻿using DataComemorativa.Application.UseCases.DataComemorativa.Delete;
 using DataComemorativa.Application.UseCases.DataComemorativa.GetAll;
 using DataComemorativa.Application.UseCases.DataComemorativa.Register;
+using DataComemorativa.Application.UseCases.DataComemorativa.Update;
 using DataComemorativa.Communication.Requests;
 using DataComemorativa.Communication.Responses;
 using Microsoft.AspNetCore.Mvc;
@@ -33,20 +34,20 @@ namespace DataComemorativa.Api.Controllers
             if (response.Datas.Count != 0)
                 return Ok(response);
 
-            return NoContent();
+            return new NoContent();
 
         }
 
-        //[HttpPut]
-        //[Route("{id}")]
-        //public async Task<IActionResult> Update(
-        //    [FromServices] IUpdateDataComemorativaUseCase useCase,
-        //    [FromRoute] int id,
-        //    [FromBody] RequestRegisterDataComemorativa request)
-        //{
-        //    await useCase.Execute(id, request);
-        //    return NoContent();
-        //}
+        [HttpPut]
+        [Route("{id}")]
+        public async Task<IActionResult> Update(
+            [FromServices] IUpdateDataComemorativaUseCase useCase,
+            [FromRoute] int id,
+            [FromBody] RequestRegisterDataComemorativa request)
+        {
+            await useCase.Execute(id, request);
+            return NoContent();
+        }
 
         [HttpDelete]
         [Route("{id}")]

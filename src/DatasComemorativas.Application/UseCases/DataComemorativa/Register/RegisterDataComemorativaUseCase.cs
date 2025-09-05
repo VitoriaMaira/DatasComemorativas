@@ -38,7 +38,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
 
         private void Validate(RequestRegisterDataComemorativa request)
         {
-            var validator = new RegisterDataComemorativaValidator();
+            var validator = new DataComemorativaValidator();
 
             var validationResult = validator.Validate(request);
 
