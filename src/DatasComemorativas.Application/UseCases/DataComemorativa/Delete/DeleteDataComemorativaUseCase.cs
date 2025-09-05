@@ -1,4 +1,6 @@
-﻿using DataComemorativa.Domain.Repositories.DataComemorativa;
+﻿using DataComemorativa.Communication.Requests;
+using DataComemorativa.Communication.Responses;
+using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Exception.ExceptionBase;
 using System.Reflection;
 
@@ -13,7 +15,7 @@ public class DeleteDataComemorativaUseCase : IDeleteDataComemorativaUseCase
         _unitOfWork = unitOfWork;
     }
 
-    public async Task Execute(int id)
+    public async Task<ResponseDeleteDataComemorativa> Execute(int id)
     {
         var data = await _repository.GetByIdAsync(id);
 
@@ -22,8 +24,13 @@ public class DeleteDataComemorativaUseCase : IDeleteDataComemorativaUseCase
             throw new NotFoundException("Data não encontrada.");
         }
         
-
+       
         await _repository.DeleteAsync(id);
         await _unitOfWork.Commit();
+        
+        return new ResponseDeleteDataComemorativa(id, "Data deletada com sucesso.");
     }
+
+    
+    
 }
