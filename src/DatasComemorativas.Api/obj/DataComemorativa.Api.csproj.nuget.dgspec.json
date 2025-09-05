@@ -11,7 +11,7 @@
         "projectName": "DataComemorativa.Api",
         "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\DataComemorativa.Api.csproj",
         "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Atalaia\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\obj\\",
+        "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -110,7 +110,7 @@
         "projectName": "DataComemorativa.Application",
         "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\DataComemorativa.Application.csproj",
         "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Atalaia\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\obj\\",
+        "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -390,7 +390,7 @@
         "projectName": "DataComemorativa.Infrastructure",
         "projectPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Infrastructure\\DataComemorativa.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Atalaia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Atalaia\\Source\\Repos\\DatasComemorativas\\src\\DatasComemorativas.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Atalaia\\source\\repos\\DatasComemorativas\\src\\DatasComemorativas.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataComemorativa.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a37a0207dcd02b5393af90a7e3b1c79a5680a80a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+740a286a661f7a54c90d92d4dad1bfaddfcc3caa")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataComemorativa.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataComemorativa.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
