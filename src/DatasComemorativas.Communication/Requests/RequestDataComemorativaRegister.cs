@@ -1,12 +1,13 @@
-﻿using DataComemorativa.Communication.Requests;
-using FluentValidation;
+﻿using FluentValidation;
 
-namespace DataComemorativa.Application.UseCases.DataComemorativa
+namespace DataComemorativa.Communication.Requests
 {
+    public record RequestDataComemorativaRegister(string Name, DateTime Date, string? Description);
+
     // Validador para o request de registro de data comemorativa
-    public class DataComemorativaValidator : AbstractValidator<RequestDataComemorativa>
+    public class DataComemorativaRegisterValidator : AbstractValidator<RequestDataComemorativaRegister>
     {
-        public DataComemorativaValidator()
+        public DataComemorativaRegisterValidator()
         {
             RuleFor(x => x.Name)
                 .NotEmpty().WithMessage("O nome da data comemorativa é obrigatório.")

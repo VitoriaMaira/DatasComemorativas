@@ -19,7 +19,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
             _unitOfWork = unitOfWork;
         }
 
-        public async Task<ResponseRegisterDataComemorativa> Execute(RequestDataComemorativa request)
+        public async Task<ResponseRegisterDataComemorativa> Execute(RequestDataComemorativaRegister request)
         {
             Validate(request);
 
@@ -37,9 +37,9 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
         }
 
 
-        private void Validate(RequestDataComemorativa request)
+        private void Validate(RequestDataComemorativaRegister request)
         {
-            var validator = new DataComemorativaValidator();
+            var validator = new DataComemorativaRegisterValidator();
 
             var validationResult = validator.Validate(request);
 

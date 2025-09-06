@@ -16,7 +16,7 @@ namespace DataComemorativa.Api.Controllers
         [ProducesResponseType(typeof(ResponseRegisterDataComemorativa), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register(
-            [FromBody] RequestDataComemorativa request,
+            [FromBody] RequestDataComemorativaRegister request,
             [FromServices] IRegisterDataComemorativaUseCase useCase)
         {
             var response = await useCase.Execute(request);
@@ -24,7 +24,7 @@ namespace DataComemorativa.Api.Controllers
         }
 
         [HttpGet]
-        [ProducesResponseType(typeof(ResponseDataComemorativa), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseDataComemorativaGetAll), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> GetAll(
             [FromServices] IGetAllDataComemorativaUseCase useCase)
@@ -38,29 +38,28 @@ namespace DataComemorativa.Api.Controllers
 
         }
 
-        [HttpPut("{id}")]
-        [ProducesResponseType(typeof(ResponseUpdateDataComemorativa), StatusCodes.Status200OK)]
+        [HttpPut]
+        [ProducesResponseType(typeof(ResponseDataComemorativaUpdate), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Update(
             [FromServices] IUpdateDataComemorativaUseCase useCase,
-            [FromRoute] int id,
-            [FromBody] RequestDataComemorativa request)
+            [FromBody] RequestDataComemorativaUpdate request)
         {
-            var response = await useCase.Execute(id, request);
+            var response = await useCase.Execute(request);
 
             return Ok(response);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Delete(
             [FromServices] IDeleteDataComemorativaUseCase useCase,
-            [FromRoute] int id)
+            [FromQuery] RequestDataComemorativaDelete request)
         {
 
-            var response = await useCase.Execute(id);
+            var response = await useCase.Execute(request);
             return Ok(response);
         }
 

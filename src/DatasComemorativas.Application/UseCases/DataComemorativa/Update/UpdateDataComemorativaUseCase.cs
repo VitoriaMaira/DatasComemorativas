@@ -1,8 +1,6 @@
 ﻿using DataComemorativa.Communication.Requests;
-using DataComemorativa.Communication.Responses;
 using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Exception.ExceptionBase;
-using FluentValidation;
 
 namespace DataComemorativa.Application.UseCases.DataComemorativa.Update;
 public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
@@ -19,11 +17,11 @@ public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
 
     }
 
-    public async Task<ResponseUpdateDataComemorativa> Execute(int id, RequestDataComemorativa request)
+    public async Task<ResponseDataComemorativaUpdate> Execute(RequestDataComemorativaUpdate request)
     {
         Validate(request);
 
-        var dataComemorativa = await _dataComemorativaRepository.GetByIdAsync(id);
+        var dataComemorativa = await _dataComemorativaRepository.GetByIdAsync(request.Id);
         if (dataComemorativa is null)
             throw new NotFoundException("Data comemorativa não encontrada.");
 
@@ -31,14 +29,15 @@ public class UpdateDataComemorativaUseCase : IUpdateDataComemorativaUseCase
         dataComemorativa.Date = request.Date;
         dataComemorativa.Description = request.Description;
 
+        await _dataComemorativaRepository.UpdateAsync(dataComemorativa);
         await _unitOfWork.Commit();
 
-        return new ResponseUpdateDataComemorativa(id, "Data comemorativa atualizada com sucesso.");
+        return new ResponseDataComemorativaUpdate(request.Id, "Data comemorativa atualizada com sucesso.");
     }
 
-    private void Validate(RequestDataComemorativa request)
+    private void Validate(RequestDataComemorativaUpdate request)
     {
-        var validator = new DataComemorativaValidator();
+        var validator = new RequestDataComemorativaUpdateValidator();
 
         var validationResult = validator.Validate(request);
 

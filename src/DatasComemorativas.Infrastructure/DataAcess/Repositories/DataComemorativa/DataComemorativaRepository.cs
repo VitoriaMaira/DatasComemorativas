@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataComemorativa.Infrastructure.DataAcess.Repositories
 {
-    
+
     public class DataComemorativaRepository : IDataComemorativaRepository
     {
         private readonly DataComemorativaDbContext _dbContext;
@@ -13,19 +13,16 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task AddAsync(Data data)
+        public async Task AddAsync(Data entity)
         {
-            await _dbContext.Datas.AddAsync(data);
+            await _dbContext.Datas.AddAsync(entity);
         }
 
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Data entity)
         {
-            var data = await _dbContext.Datas.FindAsync(id);
-            if (data != null)
-            {
-                _dbContext.Datas.Remove(data);
-            }
+            _dbContext.Datas.Remove(entity);
+
             await Task.CompletedTask;
         }
 
@@ -34,14 +31,14 @@ namespace DataComemorativa.Infrastructure.DataAcess.Repositories
             return await _dbContext.Datas.ToListAsync();
         }
 
-        public async Task<Data> GetByIdAsync(int id)
+        public async Task<Data?> GetByIdAsync(int id)
         {
-            return await _dbContext.Datas.FindAsync(id);
+            return await _dbContext.Datas.FirstOrDefaultAsync(x => x.Id == id);
         }
 
-        public async Task UpdateAsync(Data data)
+        public async Task UpdateAsync(Data entity)
         {
-            _dbContext.Datas.Update(data);
+            _dbContext.Datas.Update(entity);
             await Task.CompletedTask;
         }
 
