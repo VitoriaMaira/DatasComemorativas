@@ -1,5 +1,6 @@
 ﻿using DataComemorativa.Communication.Requests;
 using DataComemorativa.Communication.Responses;
+using DataComemorativa.Domain.Entities;
 using DataComemorativa.Domain.Repositories.DataComemorativa;
 using DataComemorativa.Exception.ExceptionBase;
 
@@ -22,7 +23,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.Register
         {
             Validate(request);
 
-            var data = new Domain.Entities.Data
+            var data = new Data
             {
                 Name = request.Name,
                 Date = request.Date,
