@@ -20,6 +20,9 @@ builder.Services.AddApplication();
 
 builder.Services.AddMvc(options => options.Filters.Add(typeof(ExceptionFilter)));
 
+//obriga as rotas ficarem minusculas
+builder.Services.AddRouting(option => option.LowercaseUrls = true);
+
 
 var app = builder.Build();
 

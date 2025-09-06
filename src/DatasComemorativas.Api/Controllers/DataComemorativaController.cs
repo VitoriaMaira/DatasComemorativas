@@ -12,7 +12,7 @@ namespace DataComemorativa.Api.Controllers
     [ApiController]
     public class DataComemorativaController : ControllerBase
     {
-        [HttpPost("/api/datacomemorativa")]
+        [HttpPost]
         [ProducesResponseType(typeof(ResponseRegisterDataComemorativa), StatusCodes.Status201Created)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         public async Task<IActionResult> Register(
@@ -23,7 +23,7 @@ namespace DataComemorativa.Api.Controllers
             return Created(string.Empty, response);
         }
 
-        [HttpGet("/api/datacomemorativa")]
+        [HttpGet]
         [ProducesResponseType(typeof(ResponseDataComemorativa), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         public async Task<IActionResult> GetAll(
@@ -32,13 +32,13 @@ namespace DataComemorativa.Api.Controllers
             var response = await useCase.Execute();
 
             if (response.Datas.Count != 0)
-            return Ok(response);
+                return Ok(response);
 
             return NoContent();
 
         }
 
-        [HttpPut("/api/datacomemorativa/{id}")]
+        [HttpPut("{id}")]
         [ProducesResponseType(typeof(ResponseUpdateDataComemorativa), StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status400BadRequest)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status404NotFound)]
@@ -47,19 +47,19 @@ namespace DataComemorativa.Api.Controllers
             [FromRoute] int id,
             [FromBody] RequestDataComemorativa request)
         {
-           var response = await useCase.Execute(id, request);
+            var response = await useCase.Execute(id, request);
 
             return Ok(response);
         }
 
-        [HttpDelete("/api/datacomemorativa/{id}")]
+        [HttpDelete("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(typeof(ResponseError), StatusCodes.Status404NotFound)]
         public async Task<IActionResult> Delete(
             [FromServices] IDeleteDataComemorativaUseCase useCase,
             [FromRoute] int id)
         {
-            
+
             var response = await useCase.Execute(id);
             return Ok(response);
         }
