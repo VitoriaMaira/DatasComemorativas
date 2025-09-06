@@ -18,7 +18,7 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.GetAll
         {
             var datas = await _repository.GetAllAsync();
 
-            var response = datas.Select(d => new ResponseShortDataComemorativa
+            var listaDataComemorativa = datas.Select(d => new ResponseShortDataComemorativa
             {
                 Id = d.Id,
                 Name = d.Name,
@@ -26,10 +26,12 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.GetAll
                 Description = d.Description
             }).ToList();
 
-            return new ResponseDataComemorativa
+            var response = new ResponseDataComemorativa
             {
-                Datas = response
+                Datas = listaDataComemorativa
             };
+
+            return response;
         }
     }
 }
