@@ -31,7 +31,7 @@ namespace DataComemorativa.Api.Controllers
         {
             var response = await useCase.Execute();
 
-            if (response.Datas.Count != 0)
+            if (response.Datas.Any())
                 return Ok(response);
 
             return NoContent();
