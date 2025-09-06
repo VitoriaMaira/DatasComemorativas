@@ -18,18 +18,10 @@ namespace DataComemorativa.Application.UseCases.DataComemorativa.GetAll
         {
             var datas = await _repository.GetAllAsync();
 
-            var listaDataComemorativa = datas.Select(d => new ResponseShortDataComemorativa
-            {
-                Id = d.Id,
-                Name = d.Name,
-                Date = d.Date,
-                Description = d.Description
-            }).ToList();
+            var listaDataComemorativa = datas.Select(
+                d => new ResponseShortDataComemorativa(d.Id, d.Name, d.Date, d.Description)).ToList();
 
-            var response = new ResponseDataComemorativa
-            {
-                Datas = listaDataComemorativa
-            };
+            var response = new ResponseDataComemorativa(listaDataComemorativa);
 
             return response;
         }

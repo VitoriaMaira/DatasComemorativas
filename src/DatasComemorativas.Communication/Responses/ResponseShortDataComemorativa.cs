@@ -1,16 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DataComemorativa.Communication.Responses
+﻿namespace DataComemorativa.Communication.Responses
 {
-    public class ResponseShortDataComemorativa
-    {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime Date { get; set; }
-        public string? Description { get; set; }
-    }
+    public record ResponseShortDataComemorativa(int Id, string Name, DateTime Date, string? Description);
 }
